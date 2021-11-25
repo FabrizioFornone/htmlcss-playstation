@@ -31,9 +31,8 @@ button img {
 }
 
 .jumbo {
-    background-image: url("../img/jumbo-bg.png");
+    background: url("../img/jumbo-bg.png") center;
     background-size: cover;
-    background-position-x: center;
     height: calc(100vh - 100px);
 }
 
@@ -41,10 +40,14 @@ button img {
     bottom: 30px;
 }
 
-.jumbo-inside img, .jumbo-inside h1, .jumbo-inside p {
+.jumbo-inside img, .jumbo-inside h2, .jumbo-inside p {
     padding-left: 0;
 }
 
 .section-one img {
     border-radius: 20px;
+}
+
+.text-primary {
+    font-size: 11px;
 }
