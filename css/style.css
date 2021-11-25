@@ -14,6 +14,10 @@ nav {
     height: 60px;
 }
 
+.navbar {
+    padding: 0;
+}
+
 header img {
     width: 65px;
 }
@@ -30,5 +34,19 @@ button img {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position-x: center;
-    height: calc(100vh - 100px);;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+.jumbo-inside {
+    position: absolute;
+    bottom: 30px;
+}
+
+.jumbo-inside img, .jumbo-inside h1, .jumbo-inside p {
+    padding-left: 0;
+}
+
+.section-one img {
+    border-radius: 20px;
 }
