@@ -60,7 +60,7 @@ button img {
 .it_takes_two {
     background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
     background-size: cover;
-    height: 500px;
+    height: 80vh;
 }
 
 .section-two img::before{
