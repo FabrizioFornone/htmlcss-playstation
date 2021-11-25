@@ -67,6 +67,19 @@ button img {
     background: rgb(21, 21, 43)
 }
 
+#globe::before {
+    content: "\f0ac";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#sie {
+    width: 100px;
+
+}
+
 
 @media  (max-width: 991px) {
     #hide {
