@@ -45,6 +45,9 @@ button img {
     bottom: 30px;
 }
 
+.container img, .container h2, .container p {
+    padding-left: 0;
+}
 
 .section-one img {
     border-radius: 20px;
