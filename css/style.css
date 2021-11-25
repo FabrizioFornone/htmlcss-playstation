@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 header {
     height: 40px;
 }
@@ -36,11 +41,11 @@ button img {
     height: calc(100vh - 100px);
 }
 
-.jumbo-inside {
+.jumbo-inside, .takes-inside {
     bottom: 30px;
 }
 
-.container img, .containerh2, .container p {
+.container img, .container h2, .container p {
     padding-left: 0;
 }
 
@@ -50,4 +55,14 @@ button img {
 
 .text-primary {
     font-size: 11px;
+}
+
+.it_takes_two {
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-two img::before{
+    content: "";
 }
