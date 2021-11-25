@@ -40,7 +40,7 @@ button img {
     bottom: 30px;
 }
 
-.jumbo-inside img, .jumbo-inside h2, .jumbo-inside p {
+.container img, .containerh2, .container p {
     padding-left: 0;
 }
 
