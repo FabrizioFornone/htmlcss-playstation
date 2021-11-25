@@ -35,11 +35,9 @@ button img {
     background-size: cover;
     background-position-x: center;
     height: calc(100vh - 100px);
-    position: relative;
 }
 
 .jumbo-inside {
-    position: absolute;
     bottom: 30px;
 }
 
