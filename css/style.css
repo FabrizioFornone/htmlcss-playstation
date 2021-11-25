@@ -63,6 +63,10 @@ button img {
     height: 100vh;
 }
 
+.bg-blue {
+    background: rgb(21, 21, 43)
+}
+
 
 @media  (max-width: 991px) {
     #hide {
