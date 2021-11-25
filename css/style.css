@@ -63,6 +63,10 @@ button img {
     height: 80vh;
 }
 
-.section-two img::before{
-    content: "";
+
+@media  (max-width: 991px) {
+    #hide {
+        display: none;
+    }
+    
 }
