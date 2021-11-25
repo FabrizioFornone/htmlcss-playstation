@@ -7,16 +7,8 @@ body {
     padding-right: 0;
 }
 
-header {
-    height: 40px;
-}
-
 header .d-flex {
     height: 100%;
-}
-
-nav {
-    height: 60px;
 }
 
 .navbar {
@@ -38,7 +30,7 @@ button img {
 .jumbo {
     background: url("../img/jumbo-bg.png") center;
     background-size: cover;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 103.44px);
 }
 
 .jumbo-inside, .takes-inside {
@@ -55,6 +47,7 @@ button img {
 
 .text-primary {
     font-size: 11px;
+    text-decoration: none;
 }
 
 .it_takes_two {
