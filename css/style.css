@@ -45,9 +45,6 @@ button img {
     bottom: 30px;
 }
 
-.container img, .container h2, .container p {
-    padding-left: 0;
-}
 
 .section-one img {
     border-radius: 20px;
@@ -60,7 +57,7 @@ button img {
 .it_takes_two {
     background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 
