@@ -2,10 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+/* .container {
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 header .d-flex {
   height: 100%;
@@ -33,17 +33,13 @@ button img {
   height: calc(100vh - 103.44px);
 }
 
+.jumbo .container,
+.jumbo .jumbo-inside {
+  height: 100%;
+}
+
 .jumbo-inside img {
-  max-width: 40%;
-}
-
-.jumbo-inside p {
-  max-width: 50%;
-}
-
-.jumbo-inside,
-.takes-inside {
-  bottom: 30px;
+  max-width: 70%;
 }
 
 .container img,
@@ -85,6 +81,10 @@ button img {
 
 @media (min-width: 992px) {
   .jumbo-inside img {
-    max-width: 40%;
+    max-width: 25%;
+  }
+
+  .jumbo-inside p {
+    max-width: 35%;
   }
 }
