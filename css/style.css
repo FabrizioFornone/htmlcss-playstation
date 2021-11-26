@@ -4,15 +4,19 @@ body {
 
 /* Utility Classes */
 
+a {
+    color: #fff;
+}
+
 .container img,
 .container h2,
 .container p {
   padding-left: 0;
 }
 
-.text-primary {
+section .text-primary {
   font-size: 11px;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .bg-darkblue {
@@ -38,6 +42,23 @@ header img {
 .navbar-custom {
   padding: 0;
   font-size: 15px;
+}
+
+.dropdown-toggle::after {
+    width: 0;
+    height: 0;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 0.3em;
+    vertical-align: middle;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    display: inline;
+    color: grey;
 }
 
 .navbar-custom .btn {
@@ -180,12 +201,25 @@ header img {
 
 /* Footer */
 
+footer a {
+    text-decoration: underline;
+}
+
+
 #globe::before {
   content: "\f0ac";
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
   font-size: 20px;
   padding-right: 10px;
+}
+
+#copyright::before {
+  content: "\f1f9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0 5px;
 }
 
 /* Media Queries */
