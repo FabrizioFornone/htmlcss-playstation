@@ -33,13 +33,24 @@ button img {
   height: calc(100vh - 103.44px);
 }
 
+.it_takes_two {
+  background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
+  background-size: cover;
+  height: 80vh;
+}
 .jumbo .container,
-.jumbo .jumbo-inside {
+.jumbo .jumbo-inside,
+.it_takes_two .container,
+.it_takes_two .jumbo-inside {
   height: 100%;
 }
 
-.jumbo-inside img {
+#img-returnal {
   max-width: 70%;
+}
+
+#img-it_takes_two {
+  max-width: 60%;
 }
 
 .container img,
@@ -55,12 +66,6 @@ button img {
 .text-primary {
   font-size: 11px;
   text-decoration: none;
-}
-
-.it_takes_two {
-  background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
-  background-size: cover;
-  height: 100vh;
 }
 
 .bg-blue {
@@ -80,11 +85,16 @@ button img {
 }
 
 @media (min-width: 992px) {
-  .jumbo-inside img {
+  .jumbo-inside p,
+  .jumbo-inside h2 {
+    max-width: 30%;
+  }
+
+  #img-returnal {
     max-width: 25%;
   }
 
-  .jumbo-inside p {
-    max-width: 35%;
+  #img-it_takes_two {
+    max-width: 20%;
   }
 }
