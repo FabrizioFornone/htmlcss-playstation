@@ -42,9 +42,12 @@ header img {
   width: 50px;
 }
 
-.navbar-custom button img {
+.navbar-custom a img {
   width: 20px;
 }
+
+
+
 
 /* Jumbotron + It Takes Two Section */
 
