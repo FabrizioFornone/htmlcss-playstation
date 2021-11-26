@@ -2,29 +2,57 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .container {
+/* Utility Classes */
+
+.container img,
+.container h2,
+.container p {
   padding-left: 0;
-  padding-right: 0;
-} */
+}
+
+.text-primary {
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.bg-darkblue {
+  background: rgb(21, 21, 43);
+}
+
+.bg-blue {
+  background: #00439c;
+}
+
+/* header */
 
 header .d-flex {
   height: 100%;
 }
 
-.navbar {
-  padding: 0;
-}
-
 header img {
   width: 65px;
+}
+/* Navbar */
+
+.navbar-custom {
+  padding: 0;
 }
 
 .navbarbrand img {
   width: 50px;
 }
 
-button img {
+.navbar-custom button img {
   width: 20px;
+}
+
+/* Jumbotron + It Takes Two Section */
+
+.jumbo .container,
+.jumbo .jumbo-inside,
+.it_takes_two .container,
+.it_takes_two .jumbo-inside {
+  height: 100%;
 }
 
 .jumbo {
@@ -39,14 +67,16 @@ button img {
   height: 80vh;
 }
 
-.jumbo .container,
-.jumbo .jumbo-inside,
-.it_takes_two .container,
-.it_takes_two .jumbo-inside {
-  height: 100%;
-}
+/* Secion one */
 
-#img-returnal, #img-play-plus, #img-play-now {
+.section-one img {
+  border-radius: 20px;
+}
+/* Id Imgs */
+
+#img-returnal,
+#img-play-plus,
+#img-play-now {
   max-width: 70%;
 }
 
@@ -54,27 +84,11 @@ button img {
   max-width: 60%;
 }
 
-
-
-.container img,
-.container h2,
-.container p {
-  padding-left: 0;
+#sie {
+  width: 100px;
 }
 
-.section-one img {
-  border-radius: 20px;
-}
-
-.text-primary {
-  font-size: 11px;
-  text-decoration: none;
-}
-
-
-.bg-blue {
-  background: rgb(21, 21, 43);
-}
+/* Footer */
 
 #globe::before {
   content: "\f0ac";
@@ -84,9 +98,9 @@ button img {
   padding-right: 10px;
 }
 
-#sie {
-  width: 100px;
-}
+/* Media Queries */
+
+/* Media Queries for Jumbo + It Takes Two */
 
 @media (min-width: 992px) {
   .jumbo-inside p,
