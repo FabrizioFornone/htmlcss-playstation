@@ -5,7 +5,7 @@ body {
 /* Utility Classes */
 
 a {
-    color: #fff;
+  color: #fff;
 }
 
 .container img,
@@ -45,20 +45,20 @@ header img {
 }
 
 .dropdown-toggle::after {
-    width: 0;
-    height: 0;
-    content: "\f078";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 800;
-    font-size: 12px;
-    margin-left: 0.3em;
-    vertical-align: middle;
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-left: 0;
-    display: inline;
-    color: grey;
+  width: 0;
+  height: 0;
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 12px;
+  margin-left: 0.3em;
+  vertical-align: middle;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  display: inline;
+  color: grey;
 }
 
 .navbar-custom .btn {
@@ -202,9 +202,8 @@ header img {
 /* Footer */
 
 footer a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 #globe::before {
   content: "\f0ac";
