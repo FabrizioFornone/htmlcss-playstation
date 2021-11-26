@@ -25,29 +25,58 @@ body {
 
 /* header */
 
-header .d-flex {
-  height: 100%;
+header {
+  background: #000;
 }
 
 header img {
-  width: 65px;
+  width: 75px;
+  padding-right: 5px;
 }
 /* Navbar */
 
 .navbar-custom {
   padding: 0;
+  font-size: 15px;
 }
 
-.navbarbrand img {
-  width: 50px;
+.navbar-custom .btn {
+  background: #000;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: none;
+}
+
+.btn:active,
+.btn:focus,
+.btn:active:focus,
+.btn:hover {
+  background-image: none;
+  background: #00439c;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-custom .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn a:active:focus .btn {
+  background: #00439c;
+}
+
+.lens-li {
+  padding-left: 5px;
 }
 
 .navbar-custom a img {
-  width: 20px;
+  width: 25px;
 }
-
-
-
 
 /* Jumbotron + It Takes Two Section */
 
@@ -61,7 +90,8 @@ header img {
 .jumbo {
   background: url("../img/jumbo-bg.png") center;
   background-size: cover;
-  height: calc(100vh - 103.44px);
+  height: calc(100vh - 88.31px);
+  margin-top: 88.31px;
 }
 
 .it_takes_two {
