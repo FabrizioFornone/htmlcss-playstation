@@ -45,7 +45,7 @@ button img {
   height: 100%;
 }
 
-#img-returnal {
+#img-returnal, #img-play-plus, #img-play-now {
   max-width: 70%;
 }
 
@@ -67,6 +67,7 @@ button img {
   font-size: 11px;
   text-decoration: none;
 }
+
 
 .bg-blue {
   background: rgb(21, 21, 43);
