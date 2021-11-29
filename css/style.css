@@ -32,6 +32,10 @@ section .text-primary {
   background: #00439c;
 }
 
+.bg-grey {
+  background: #c1bdbc;
+}
+
 /* Buttons */
 
 .btn {
@@ -58,7 +62,12 @@ section .text-primary {
 }
 
 .btn-grey {
-  background-color: #dadada;
+  background-color: rgba(220, 222, 224, 0.9);
+  color: #0d6efd;
+}
+
+.btn-white {
+  background: whitesmoke;
   color: #000;
 }
 
@@ -86,14 +95,18 @@ section .text-primary {
 
 .btn-blue:active,
 .btn-blue:focus,
-.btn-blue:active:focus {
+.btn-blue:active:focus
+.btn-white:active,
+.btn-white:focus,
+.btn-white:active:focus {
   background-image: none;
   background: #d63d00;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.btn-blue:hover {
+.btn-blue:hover,
+.btn-white:hover {
   background: #d63d00;
   box-shadow: inset 0px 0px 0px 2px #000;
 }
