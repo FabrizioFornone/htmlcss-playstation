@@ -226,6 +226,7 @@ header img {
 .overlay {
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
+  border-bottom: 2px solid transparent;
 }
 
 .overlay:hover {
@@ -235,7 +236,6 @@ header img {
 }
 
 /* Id Imgs */
-
 #img-returnal,
 #img-play-plus,
 #img-play-now {
