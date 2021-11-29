@@ -36,7 +36,6 @@ section .text-primary {
 
 .btn {
   border: 2px solid transparent;
-  border-width: 2px;
   color: #fff;
   padding: 0.27rem 0.75rem;
   line-height: 1;
@@ -65,31 +64,37 @@ section .text-primary {
 .navbar-custom .btn:active,
 .navbar-custom .btn:focus,
 .navbar-custom .btn:active:focus,
-.navbar-custom .btn:hover,
 .btn-orange:active,
 .btn-orange:focus,
 .btn-orange:active:focus,
-.btn-orange:hover,
 .btn-grey:active,
 .btn-grey:focus,
-.btn-grey:active:focus,
-.btn-grey:hover {
+.btn-grey:active:focus {
   background-image: none;
   background: #0d6efd;
-  box-shadow: inset 0px 0px 0px 2px #000;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
+.navbar-custom .btn:hover,
+.btn-orange:hover,
+.btn-grey:hover {
+  background: #0d6efd;
+  box-shadow: inset 0px 0px 0px 2px #191a19;
+}
+
 .btn-blue:active,
 .btn-blue:focus,
-.btn-blue:active:focus,
-.btn-blue:hover {
+.btn-blue:active:focus {
   background-image: none;
   background: #d63d00;
-  box-shadow: inset 0px 0px 0px 2px #000;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.btn-blue:hover {
+  background: #d63d00;
+  box-shadow: inset 0px 0px 0px 2px #000;
 }
 
 /* header */
