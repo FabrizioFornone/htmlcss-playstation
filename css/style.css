@@ -44,8 +44,9 @@ section .text-primary {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.navbar-custom .btn {
+.nav-btn {
   background: #191a19;
+  padding: ;
 }
 
 .btn-blue {
@@ -61,9 +62,9 @@ section .text-primary {
   color: #000;
 }
 
-.navbar-custom .btn:active,
-.navbar-custom .btn:focus,
-.navbar-custom .btn:active:focus,
+.nav-btn:active,
+.nav-btn:focus,
+.nav-btn:active:focus,
 .btn-orange:active,
 .btn-orange:focus,
 .btn-orange:active:focus,
@@ -76,7 +77,7 @@ section .text-primary {
   box-shadow: none;
 }
 
-.navbar-custom .btn:hover,
+.nav-btn:hover,
 .btn-orange:hover,
 .btn-grey:hover {
   background: #0d6efd;
@@ -131,6 +132,7 @@ header img {
   color: grey;
 }
 
+
 .lens-li a {
   display: inline-block;
 }
@@ -146,6 +148,16 @@ header img {
 
 #search-bar-hide {
   display: inline-block;
+}
+
+/*Nav Toggler mode padding left */
+
+.navbar-custom .nav-link {
+  padding-left: 5px;
+}
+
+.nav-btn {
+  margin-left: 5px;
 }
 
 /* Jumbotron + It Takes Two Section */
@@ -223,6 +235,10 @@ header img {
 /* Media Queries for Jumbo + It Takes Two */
 
 @media (min-width: 992px) {
+  .nav-btn {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
   #search-bar-hide {
     display: none;
   }
