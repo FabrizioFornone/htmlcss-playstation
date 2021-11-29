@@ -131,12 +131,21 @@ header img {
   color: grey;
 }
 
-.lens-li {
-  padding-left: 5px;
+.lens-li a {
+  display: inline-block;
 }
 
-.navbar-custom a img {
+.lens-li a img {
   width: 25px;
+}
+
+.lens-li .form-control {
+  width: 50%;
+  line-height: 1;
+}
+
+#search-bar-hide {
+  display: inline-block;
 }
 
 /* Jumbotron + It Takes Two Section */
@@ -214,6 +223,10 @@ header img {
 /* Media Queries for Jumbo + It Takes Two */
 
 @media (min-width: 992px) {
+  #search-bar-hide {
+    display: none;
+  }
+
   .jumbo-inside p,
   .jumbo-inside h2 {
     max-width: 30%;
