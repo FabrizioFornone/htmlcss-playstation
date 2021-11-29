@@ -163,8 +163,17 @@ header img {
 
 /* Secion one */
 
-.section-one img {
+.moving-imgs img {
   border-radius: 20px;
+  padding: 3px;
+  border: 2px solid transparent;
+  position: relative;
+  top: 0;
+}
+
+.moving-imgs a:hover img {
+  border-color: #0d6efd;
+  top: -10px;
 }
 /* Id Imgs */
 
